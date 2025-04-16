@@ -1,0 +1,7 @@
+site_name: StegoHideX
+repo_url: https://github.com/acydyq/StegoHideX
+nav:
+  - Home: index.md
+docs_dir: docs
+theme:
+  name: material
