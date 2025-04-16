@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Shadow\Documents\.PROJECTS\.WINDSURFPROJ\StegoHideX\main.py", line 341, in <module>
+    window = StegoHideXApp()
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Shadow\Documents\.PROJECTS\.WINDSURFPROJ\StegoHideX\main.py", line 293, in __init__
+    self.init_ui()
+  File "C:\Users\Shadow\Documents\.PROJECTS\.WINDSURFPROJ\StegoHideX\main.py", line 299, in init_ui
+    self.decode_tab = DecodeTab()
+                      ^^^^^^^^^^^
+  File "C:\Users\Shadow\Documents\.PROJECTS\.WINDSURFPROJ\StegoHideX\main.py", line 267, in __init__
+    self.extract_btn.clicked.connect(self.extract_file)
+                                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'DecodeTab' object has no attribute 'extract_file'. Did you mean: 'extract_btn'?
+Exception occurred:

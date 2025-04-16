@@ -1,0 +1,4 @@
+/* Classic Theme Stub */
+QMainWindow { background: #f0f0f0; color: #222; }
+QLabel, QPushButton, QLineEdit { color: #222; background: #f0f0f0; }
+QTabWidget::pane { border: 1px solid #888; }

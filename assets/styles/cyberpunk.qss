@@ -1,0 +1,79 @@
+/* StegoHideX - Matrix + Cyberpunk Style Sheet */
+
+QWidget {
+    background: #0a0a0a;
+    color: #39ff14;
+    font-family: 'Orbitron', 'Share Tech Mono', 'Consolas', monospace;
+    font-size: 14px;
+}
+
+QLabel, QLineEdit, QPushButton, QTextEdit {
+    color: #39ff14;
+    background: rgba(20, 20, 30, 0.7);
+    border-radius: 8px;
+    border: 2px solid #00ffc8;
+    padding: 6px;
+    font-family: 'Orbitron', 'Share Tech Mono', 'Consolas', monospace;
+}
+
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0f0c29, stop:0.5 #302b63, stop:1 #39ff14);
+    color: #fff;
+    border: 2px solid #ff00ea;
+    text-shadow: 0 0 8px #39ff14;
+    font-weight: bold;
+    font-size: 16px;
+}
+QPushButton:hover {
+    background: #39ff14;
+    color: #0a0a0a;
+    border: 2px solid #00ffc8;
+    text-shadow: 0 0 8px #ff00ea;
+}
+
+QLineEdit, QTextEdit {
+    background: rgba(10, 10, 20, 0.7);
+    border: 2px solid #39ff14;
+    color: #39ff14;
+    font-size: 15px;
+}
+
+QTabWidget::pane {
+    border: 2px solid #00ffc8;
+    background: rgba(20, 20, 30, 0.8);
+    border-radius: 12px;
+}
+
+QTabBar::tab {
+    background: #181818;
+    color: #39ff14;
+    border: 1px solid #00ffc8;
+    border-radius: 8px 8px 0 0;
+    padding: 8px 24px;
+    margin-right: 2px;
+    font-size: 15px;
+}
+QTabBar::tab:selected {
+    background: #39ff14;
+    color: #0a0a0a;
+    border-bottom: 2px solid #ff00ea;
+}
+
+QLabel[status="error"] {
+    color: #ff00ea;
+    font-weight: bold;
+}
+QLabel[status="success"] {
+    color: #39ff14;
+    font-weight: bold;
+}
+
+/* Glassmorphism main panel */
+#MainPanel {
+    background: rgba(20, 20, 30, 0.85);
+    border-radius: 18px;
+    border: 2px solid #00ffc8;
+    box-shadow: 0 0 32px #39ff14, 0 0 8px #ff00ea;
+    padding: 24px;
+}
